@@ -1,0 +1,34 @@
+.container {
+    color: white;
+    background-color: #20293E;
+    width: 50%;
+    padding-bottom:90px;
+    float: left;
+  }
+  h1 { 
+      font-size: 50px;
+      max-width: 350px;
+      align-items: center;
+  }
+
+  h3 {
+      font-size: 23px;
+      color: white;
+  }
+
+  p {
+    color: white;
+    font-size: 24px
+  }
+  
+  .column {
+    float: right;
+    width: 50%;
+    padding: 0px;
+    height: 400px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
