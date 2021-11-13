@@ -2,33 +2,85 @@
     color: white;
     background-color: #20293E;
     width: 50%;
-    padding-bottom:90px;
     float: left;
-  }
-  h1 { 
-      font-size: 50px;
-      max-width: 350px;
-      align-items: center;
-  }
-
-  h3 {
-      font-size: 23px;
-      color: white;
-  }
-
-  p {
-    color: white;
-    font-size: 24px
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
   }
   
   .column {
     float: right;
     width: 50%;
     padding: 0px;
-    height: 400px; 
+    height: 400px;
+    display: inline-block;
+    padding-top: 40px;
   }
   
-  .row:after {
-    content: "";
+  .container-row:after {
+    float: right;
+    width: 100%;
     display: table;
     clear: both;
+  }
+  
+  h1 {
+    font-size: 50px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    font-size: 25px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+  }
+  
+  h3 {
+    font-size: 23px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h6 {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+  
+  p {
+    color: white;
+    font-size: 22px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+  }
+  
+  a {
+    color: ivory;
+    font-size: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 70px 70px;
+    justify-content: space-evenly;
+    grid-gap: 60px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-right: 80px;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
