@@ -5,16 +5,16 @@
     float: left;
     align-items: center;
     padding-top: 80px;
-    padding-bottom: 90px;
+    padding-bottom: 250px;
   }
   
   .column {
     float: right;
     width: 50%;
-    padding: 0px;
     height: 400px;
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 130px;
+
   }
   
   .container-row:after {
@@ -38,16 +38,14 @@
     margin-left: auto;
     margin-right: auto;
     font-weight: 100;
+    font-family: 'Space Grotesk', sans-serif;
+    
+  }
+  .quote {
     font-family: 'Cambo', serif;
+    
   }
   
-  h3 {
-    font-size: 23px;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Space Grotesk', sans-serif;
-  }
   
   h6 {
     font-size: 16px;
@@ -90,4 +88,4 @@
   }
 
 
-font-family: 'Space Grotesk', sans-serif;
+  
